@@ -5,6 +5,9 @@ edition = "2021"
 description = "Feature-complete, human, and async OpenAI client, generated from OpenAI's OpenAPI specification"
 license = "MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+documentation = "https://docs.rs/openai-openapi"
+homepage = "https://github.com/kurtbuilds/openai-openapi"
+repository = "https://github.com/kurtbuilds/openai-openapi"
 
 [dependencies]
 anyhow = "1.0.57"
@@ -16,3 +19,4 @@ serde_json = "1.0.81"
 [dev-dependencies]
 tokio = { version = "1.18.2", features = ["full"] }
 openapi-client-generator = "0.1.1"
+serde_yaml = "0.8.24"
