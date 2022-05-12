@@ -65,7 +65,9 @@ impl OpenAiClient {
         self.client = self.client.with_middleware(middleware);
         self
     }
-    ///Lists the currently available engines, and provides basic information about each one such as the owner and availability.
+    /**Lists the currently available engines, and provides basic information about each one such as the owner and availability.
+
+See endpoint docs at <https://beta.openai.com/docs/api-reference/engines/list>.*/
     pub async fn list_engines(&self) -> anyhow::Result<ListEnginesResponse> {
         let res = self
             .client

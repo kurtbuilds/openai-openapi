@@ -12,7 +12,7 @@ run *args:
 alias r := run
 
 generate:
-    rm src/lib.rs src/model.rs
+    rm -f src/lib.rs src/model.rs
     cargo run --example generate
 alias gen := generate
 
