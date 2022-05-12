@@ -1,6 +1,6 @@
 [package]
 name = "openai-openapi"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Feature-complete, human, and async OpenAI client, generated from OpenAI's OpenAPI specification"
 license = "MIT"
